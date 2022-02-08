@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Imagem flexivel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Imagem Flexivel</h1>
-    <p>Olhe a imagem abaixo, amplie e diminua a tela para ver as alterações! &#x1F4F7;</p>
-    <br>
-    <picture>
-        <source media="(max-width: 740px)" srcset="imgs/paisagem-p.png" type="image/png">
-        <source media="(max-width: 1200px)" srcset="imgs/paisagem-m.png" type="image/png">
-        <img src="imgs/paisagem-g.png" alt="Paisagem flexivel">
-    </picture>
+    <main>
+        <h1>Imagem Flexivel</h1>
+        <p>Olhe a imagem abaixo, ela se adequa ao tamanho da tela!</p>
+        <picture>
+            <source media="(max-width: 740px)" srcset="imgs/paisagem-p.png">
+            <source media="(max-width: 1200px)" srcset="imgs/paisagem-m.png">
+            <img src="imgs/paisagem-g.png" alt="paisagem">
+        </picture>
+    </main>
 </body>
 </html>
