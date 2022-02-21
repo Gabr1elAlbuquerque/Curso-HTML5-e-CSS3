@@ -1,26 +1,50 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+main{
+    width: 850px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
 body{
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #861657, #D56AA0);
+    background-attachment: fixed;
 }
 
 h1{
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: blue;
+    font-family: 'Roboto Slab', serif;
 }
 
-h1#principal{
-    color: yellow;
+.basico{
+    color: #34cf11;
+    font-size: 1.5em;
+    font-family: 'Cinzel', serif;
+}
+
+.intermediario{
+    color: #d8bc66;
+    font-size: 1.5em;
+    font-family: 'Cinzel', serif;
+}
+
+.avancado{
+    color: #A64253;
+    font-size: 1.5em;
+    font-family: 'Cinzel', serif;
 }
 
 p{
+    font-size: 1.5em;
     text-align: justify;
-    text-indent: 20px;
 }
 
-h2{
-    color: brown;
+.video{
+    margin: auto;
+    display: block;
 }
-
