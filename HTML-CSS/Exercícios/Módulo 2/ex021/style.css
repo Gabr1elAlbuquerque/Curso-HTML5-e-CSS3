@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1#principal{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+div.oi > p{
+    display: none;
+}
+
+div.oi:hover{
+    background-color: purple;
+}
+
+div.oi:hover > p{
+    display: block;
+    color: white;
+    background-color: red;
+}
