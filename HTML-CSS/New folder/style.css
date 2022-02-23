@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #548C2F, #104911);
+    background-attachment: fixed;
+}
+
+div{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.video{
+    margin: auto;
+    display: block;
+}
+
+h2.python:hover{
+    color: #104911;
+}
+
+h2.html:hover{
+    color: orange;
+}
+
+h2.java:hover{
+    color: yellow;
+}
