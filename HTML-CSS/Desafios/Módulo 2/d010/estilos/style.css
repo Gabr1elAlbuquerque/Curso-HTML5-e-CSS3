@@ -115,13 +115,14 @@ main a:hover{
     font-weight: bold;
 }
 
-a.externo::after{
+a.externo:after{
     content: '\1F517';
 }
 
 main img{
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 .imgpequena{
