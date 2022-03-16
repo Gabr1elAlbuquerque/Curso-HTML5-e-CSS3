@@ -92,21 +92,36 @@ main h1{
 main h2{
     font-family: var(--fonte-android);
     color: var(--cor3);
+    background-image: linear-gradient(to right, var(--cor2), transparent);
 }
 
 main p{
     text-align: justify;
     text-indent: 20px;
     font-size: 1.5em;
-
+    margin: 15px 0px;
 }
-strong{
-    color: var(--cor3);
+
+main a{
+    text-decoration: none;
+    color: var(--cor0);
+    font-weight: bolder;
+    background-color: var(--cor2);
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
 }
 
 main img{
     display: block;
     margin: auto;
+}
+
+.imgpequena{
+    max-width: 350px;
 }
 
 .video{
@@ -118,4 +133,15 @@ footer{
     background-color: var(--cor0);
     color: white;
     text-align: center;
+}
+
+footer p >a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p >a:hover{
+    
+    font-weight: bold;
+    text-decoration: underline;
 }
