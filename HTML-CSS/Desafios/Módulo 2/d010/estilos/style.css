@@ -37,6 +37,7 @@ header{
 
 header>h1{
     font-family: var(--fonte-destaque);
+    font-weight: normal;
     text-align: center;
     color: white;
     margin-bottom: 15px;
@@ -130,6 +131,11 @@ main img{
 }
 
 .video{
+    background-color: var(--cor4);
+    margin: 0px -10px;
+}
+
+div.video > .youtube{
     display: block;
     margin: auto;
 }
